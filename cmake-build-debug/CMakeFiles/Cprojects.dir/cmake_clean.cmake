@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Cprojects.dir/Floyd_triangle/main.c.obj"
+  "CMakeFiles/Cprojects.dir/binary_to_decimal/binary_to_decimal.c.obj"
   "CMakeFiles/Cprojects.dir/main.c.obj"
   "Cprojects.exe"
   "Cprojects.exe.manifest"

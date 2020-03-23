@@ -149,6 +149,33 @@ Floyd_triangle/main.c.s:
 	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/Floyd_triangle/main.c.s
 .PHONY : Floyd_triangle/main.c.s
 
+binary_to_decimal/binary_to_decimal.obj: binary_to_decimal/binary_to_decimal.c.obj
+
+.PHONY : binary_to_decimal/binary_to_decimal.obj
+
+# target to build an object file
+binary_to_decimal/binary_to_decimal.c.obj:
+	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/binary_to_decimal/binary_to_decimal.c.obj
+.PHONY : binary_to_decimal/binary_to_decimal.c.obj
+
+binary_to_decimal/binary_to_decimal.i: binary_to_decimal/binary_to_decimal.c.i
+
+.PHONY : binary_to_decimal/binary_to_decimal.i
+
+# target to preprocess a source file
+binary_to_decimal/binary_to_decimal.c.i:
+	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/binary_to_decimal/binary_to_decimal.c.i
+.PHONY : binary_to_decimal/binary_to_decimal.c.i
+
+binary_to_decimal/binary_to_decimal.s: binary_to_decimal/binary_to_decimal.c.s
+
+.PHONY : binary_to_decimal/binary_to_decimal.s
+
+# target to generate assembly for a file
+binary_to_decimal/binary_to_decimal.c.s:
+	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/binary_to_decimal/binary_to_decimal.c.s
+.PHONY : binary_to_decimal/binary_to_decimal.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... Floyd_triangle/main.obj
 	@echo ... Floyd_triangle/main.i
 	@echo ... Floyd_triangle/main.s
+	@echo ... binary_to_decimal/binary_to_decimal.obj
+	@echo ... binary_to_decimal/binary_to_decimal.i
+	@echo ... binary_to_decimal/binary_to_decimal.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
