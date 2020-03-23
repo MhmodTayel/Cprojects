@@ -11,7 +11,6 @@ int main(void) {
     printf("%s", "Enter a binary number (5 digits): ");
     scanf("%d", &number);
     first = number / 10000;
-    test = number % 10000;
     second = (number - 10000 * first) / 1000;
     third = (number - 10000 * first - 1000 * second) / 100;
     fourth = (number - 10000 * first - 1000 * second - 100 * third) / 10;
