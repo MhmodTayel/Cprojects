@@ -122,6 +122,33 @@ Cprojects/fast:
 	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/build
 .PHONY : Cprojects/fast
 
+Floyd_triangle/main.obj: Floyd_triangle/main.c.obj
+
+.PHONY : Floyd_triangle/main.obj
+
+# target to build an object file
+Floyd_triangle/main.c.obj:
+	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/Floyd_triangle/main.c.obj
+.PHONY : Floyd_triangle/main.c.obj
+
+Floyd_triangle/main.i: Floyd_triangle/main.c.i
+
+.PHONY : Floyd_triangle/main.i
+
+# target to preprocess a source file
+Floyd_triangle/main.c.i:
+	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/Floyd_triangle/main.c.i
+.PHONY : Floyd_triangle/main.c.i
+
+Floyd_triangle/main.s: Floyd_triangle/main.c.s
+
+.PHONY : Floyd_triangle/main.s
+
+# target to generate assembly for a file
+Floyd_triangle/main.c.s:
+	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/Floyd_triangle/main.c.s
+.PHONY : Floyd_triangle/main.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... Cprojects
 	@echo ... rebuild_cache
+	@echo ... Floyd_triangle/main.obj
+	@echo ... Floyd_triangle/main.i
+	@echo ... Floyd_triangle/main.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

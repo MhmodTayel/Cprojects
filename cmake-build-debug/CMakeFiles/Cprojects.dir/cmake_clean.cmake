@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Cprojects.dir/Floyd_triangle/main.c.obj"
   "CMakeFiles/Cprojects.dir/main.c.obj"
   "Cprojects.exe"
   "Cprojects.exe.manifest"

@@ -3,4 +3,4 @@ project(Cprojects C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Cprojects main.c "Hollow Square/main.cpp")
+add_executable(Cprojects main.c "Hollow Square/main.cpp" "Floyd triangle/main.c")
