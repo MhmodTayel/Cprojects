@@ -149,6 +149,33 @@ Floyd_triangle/main.c.s:
 	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/Floyd_triangle/main.c.s
 .PHONY : Floyd_triangle/main.c.s
 
+armstrong_numbers/armstrong_number.obj: armstrong_numbers/armstrong_number.c.obj
+
+.PHONY : armstrong_numbers/armstrong_number.obj
+
+# target to build an object file
+armstrong_numbers/armstrong_number.c.obj:
+	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/armstrong_numbers/armstrong_number.c.obj
+.PHONY : armstrong_numbers/armstrong_number.c.obj
+
+armstrong_numbers/armstrong_number.i: armstrong_numbers/armstrong_number.c.i
+
+.PHONY : armstrong_numbers/armstrong_number.i
+
+# target to preprocess a source file
+armstrong_numbers/armstrong_number.c.i:
+	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/armstrong_numbers/armstrong_number.c.i
+.PHONY : armstrong_numbers/armstrong_number.c.i
+
+armstrong_numbers/armstrong_number.s: armstrong_numbers/armstrong_number.c.s
+
+.PHONY : armstrong_numbers/armstrong_number.s
+
+# target to generate assembly for a file
+armstrong_numbers/armstrong_number.c.s:
+	$(MAKE) -f CMakeFiles\Cprojects.dir\build.make CMakeFiles/Cprojects.dir/armstrong_numbers/armstrong_number.c.s
+.PHONY : armstrong_numbers/armstrong_number.c.s
+
 binary_to_decimal/binary_to_decimal.obj: binary_to_decimal/binary_to_decimal.c.obj
 
 .PHONY : binary_to_decimal/binary_to_decimal.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... Floyd_triangle/main.obj
 	@echo ... Floyd_triangle/main.i
 	@echo ... Floyd_triangle/main.s
+	@echo ... armstrong_numbers/armstrong_number.obj
+	@echo ... armstrong_numbers/armstrong_number.i
+	@echo ... armstrong_numbers/armstrong_number.s
 	@echo ... binary_to_decimal/binary_to_decimal.obj
 	@echo ... binary_to_decimal/binary_to_decimal.i
 	@echo ... binary_to_decimal/binary_to_decimal.s
